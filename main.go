@@ -98,7 +98,7 @@ func calcDelays(timetable Timetable, timetchange Timetable) {
 func convertTime(timestring string) time.Time {
 	time, err := time.Parse("0601021504", timestring)
 	if err != nil {
-		fmt.Println("FEHLER!", err)
+		fmt.Println(err)
 		os.Exit(1)
 	}
 	return time
