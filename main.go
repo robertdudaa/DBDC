@@ -91,7 +91,7 @@ func calcDelays(timetable Timetable, timetchange Timetable) {
 		}
 		fmt.Println("\nTOTAL DELAY: ", vges.Format("15:04"))
 	} else {
-		fmt.Println("THERE WAS NO DELAYS")
+		fmt.Println("THERE WERE NO DELAYS")
 	}
 }
 
